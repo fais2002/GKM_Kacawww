@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cde32edf33ff5b49ba98c087078e819, type: 3}
+  m_Name: Baru 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  message:
+  - sender: 1
+    type: 0
+    message: P
+    choices: []
+  - sender: 0
+    type: 0
+    message: Berantem Lu
+    choices: []
+  - sender: 1
+    type: 0
+    message: Kalem Jing
+    choices: []
+  - sender: 0
+    type: 0
+    message: Ada perlu ap lu
+    choices: []
+  - sender: 1
+    type: 0
+    message: Gini, Gw mau ngomong sesuatu
+    choices: []

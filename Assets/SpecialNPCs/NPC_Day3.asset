@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23202c5ac7f20846906e4e2f933b62b, type: 3}
+  m_Name: NPC_Day3
+  m_EditorClassIdentifier: Assembly-CSharp::SpecialNPCData
+  npcName: Dadang
+  expressions:
+  - {fileID: -1723581724, guid: 60a3e1454a4d3d34a989bf4a46cb4eb6, type: 3}
+  - {fileID: 1765326434, guid: 81887b6b77f6e5c4b86f9453efec8683, type: 3}
+  - {fileID: -1440578087, guid: 473231964d663604f9bf2f4600387878, type: 3}
+  - {fileID: 1138435589, guid: 5df74f3263e43444a8022cf86493923e, type: 3}
+  - {fileID: -84967719, guid: b90442c1633a40c41a101d2a769cf734, type: 3}
+  introDialogue:
+  - text: 'Lohh, ada mobil makanan baru nihh
+
+      (muka kaget)'
+    expressionIndex: 2
+  - text: 'Halo mas broo
+
+      (muka senang)'
+    expressionIndex: 1
+  - text: 'Aku mau pesen makan
+
+      (muka default)'
+    expressionIndex: 0
+  postOrderDialogue:
+  - text: 'anjg enak banget cok
+
+      (muka marah)'
+    expressionIndex: 3
+  outroDialogue:
+  - text: 'Aku mau pulang tapi lupa rumahku dimana
+
+      (muka bingung) '
+    expressionIndex: 0
+  requiredIngredients:
+  - Sausage
+  popularityReward: 30
+  moneyReward: 50
+  minigameSceneName: Minigame_Day3
+  buffDescription: 'Speed buff: chopping is 50% faster for the rest of the day.'
